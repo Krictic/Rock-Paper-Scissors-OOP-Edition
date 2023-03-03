@@ -39,7 +39,5 @@ namespace RPS
                 return "";
             }
         }
-
-
     }
 }

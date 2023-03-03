@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace RPS
+﻿namespace RPS
 {
     internal class Program
     {
@@ -10,7 +8,6 @@ namespace RPS
             int playerScore = 0;
             int computerScore = 0;
             int draw = 0;
-
             
             Console.Write("Choose either rock, paper or scissors: ");
             string? playerChoice = Console.ReadLine().ToLower();

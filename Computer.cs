@@ -3,7 +3,6 @@
     internal class Computer
     {
         private string pcChoice;
-
         public dynamic rand = new Random();
         public Computer()
         {
@@ -23,7 +22,6 @@
                 pcChoice = "scissors";
             }
         }
-
         public string GetPcChoice()
         {
             return pcChoice;
